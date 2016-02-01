@@ -9,7 +9,7 @@ function findUUID(){
 function getUser(profile_link){
   var userId = getUserIdFromUrl(profile_link);
   var data = $.post("/uuid", {url: profile_link}, function(response, status){
-    $("#uuid").append("<div class='user'><p>UUID: " + response["eid"] + "</p><p>Profile URL: " + response.url + "</div")
+    $("#csvname").append(response["name"] + ", ")
     $("#csvuuid").append(response["eid"] + ",")
     return response;
   });

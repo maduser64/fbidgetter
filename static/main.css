@@ -34,13 +34,13 @@ body{
     padding: 20px;
 }
 
-.user{
-	display: flex;
+#csvname{
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height:50px;
     background:#F0F0F0;
     border:1px solid #CCC;
     padding: 20px;
 }
+
