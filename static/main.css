@@ -1,0 +1,46 @@
+body{
+	font-family: sans-serif;
+}
+
+#heading{
+	display: flex;
+	font-family: monospace;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    padding: 20px;
+}
+
+#input{
+	display: flex;
+	padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:250px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+}
+
+#csvuuid{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    padding: 20px;
+}
+
+.user{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    padding: 20px;
+}
