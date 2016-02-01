@@ -29,4 +29,4 @@ def find_uuid_from_url(url):
 	return eid
 
 if __name__ == "__main__":
-	app.run(host="0.0.0.0", port="3000")
+	app.run(host="0.0.0.0", port="5000")
